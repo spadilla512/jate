@@ -7,7 +7,7 @@
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
-    "install": "cd server && npm i && cd ../client && npm i",
+    "install": "npm install && cd client",
     "client": "cd client && npm start",
     "build": "cd client && npm run build"
   },
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "css-loader": "^6.10.0",
+    "style-loader": "^3.3.4",
     "webpack": "^5.90.3",
     "webpack-dev-server": "^5.0.2",
     "webpack-pwa-manifest": "^4.3.0"
