@@ -44,15 +44,38 @@ THEN I should have proper build scripts for a webpack application
 
 ## Installation
 
-
+ - npm install
+ - Express: npm i express
+ - Node: npm init
+ - IndexedDB: npm i idb
+ - Babel: npm i --save-dev @babel/cli @babel/core @babel/preset-env webpack
+ - css loader: npm install --save-dev css-loader
+ - Concurrently: npm i concurrently
+ - Webpack: npm install --save-dev webpack
+ - npm install webpack-dev-server
+ - npm install --save-dev webpack-pwa-manifest
 
 ## Images
 
+### Terminal
 
+![Alt text](Images/Terminal.png)
+
+### Preview 1
+
+![Alt text](Images/JATE.png)
+
+### Preview 2 - Manifest
+
+![Alt text](Images/Manifest.png)
+
+### Preview 3 - Service Worker
+
+![Alt text](Images/Service-workers.png)
 
 ## Deployment Link
 
-
+Deployment link through Render: https://jate-a5zb.onrender.com/
 
 ## Credits
 
